@@ -1,0 +1,60 @@
+.bg-container {
+    display: flex;
+    overflow: hidden;
+}
+
+.bg-img-left {
+    transition: transform 0.25s;
+    background-image: url("../../img/home_background_left.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    width: 50vw;
+}
+
+.bg-img-left:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+.bg-img-right {
+    transition: transform 0.25s;
+    background-image: url("../../img/home_background_right.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    width: 50vw;
+}
+
+.bg-img-right:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+}
+
+.game-title {
+    color: white;
+    margin: 0;
+    padding: 16px;
+}
+
+.coaching-btn {
+    cursor: pointer;
+    position: absolute;
+    bottom: 10vh;
+    left: calc(50vw - 120px);
+    padding: 16px;
+    width: 240px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    border: 2px solid white;
+    color: white;
+    font-size: 24px;
+}
+
+.coaching-btn:hover {
+    transform: scale(1.1);
+}

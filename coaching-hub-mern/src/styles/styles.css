@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, #root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    max-width: 100vw;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  

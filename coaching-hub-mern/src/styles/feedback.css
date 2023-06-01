@@ -1,0 +1,44 @@
+.form {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feedback-container {
+    background-image: url("../../img/feedback_background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form input, .form textarea {
+    width: 320px;
+    padding: 16px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border-radius: 32px;
+    border-color: white;
+}
+
+#feedback-title {
+    color: white;
+    font-size: 24px;
+}
+
+#feedback-btn {
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 16px;
+    border-radius: 32px;
+    border: none;
+    color: white;
+    width: 320px;
+    background-color: darkblue;
+}

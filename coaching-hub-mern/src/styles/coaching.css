@@ -1,0 +1,12 @@
+.coaching-container {
+   height: 490px; 
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.calendly-container {
+    width: 784px;
+}
