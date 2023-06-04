@@ -56,14 +56,14 @@ const Subscription = () => {
                     <h2>Unsere Beispielkurse</h2>
                     <div className="video-section-container">
                         <div className="video-container">
-                            <video width={"45%"} height={"360px"} src="../../videos/bitcoin.mp4" controls>
-                                <source src="../../videos/bitcoin.mp4" type="video/mp4" ></source>
-                                <source src="../../videos/bitcoin.ogg" type="video/ogg"></source>
+                            <video width={"45%"} height={"360px"} controls>
+                                <source src="" type="video/mp4" ></source>
+                                <source src="" type="video/ogg"></source>
                                 Sorry, your browser doesn't support videos.
                             </video>
-                            <video width={"45%"} height={"360px"} src="../../videos/characters.mp4" controls>
-                                <source  src="../../videos/characters.mp4" type="video/mp4"></source>
-                                <source src="../../videos/characters.ogg" type="video/ogg"></source>
+                            <video width={"45%"} height={"360px"} controls>
+                                <source type="video/mp4"></source>
+                                <source type="video/ogg"></source>
                                 Sorry, your browser doesn't support videos.
                             </video>
                         </div>
