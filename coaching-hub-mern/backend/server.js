@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true})
+mongoose.connect("mongodb+srv://emir:H6ZRuWmaq6NiJ0u7@cluster0.h4gnpxy.mongodb.net/coaching_hub?retryWrites=true&w=majority", { useNewUrlParser: true})
 
 const connection = mongoose.connection;
 connection.once("open", () => {
@@ -18,7 +18,7 @@ connection.once("open", () => {
 })
 
 const usersRouter = require("./routes/users")
-app.use("users", usersRouter)
+app.use("/users", usersRouter)
 
 app.listen(port, () => {
     console.log("listen on port " + port)

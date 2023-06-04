@@ -1,0 +1,55 @@
+.subscription-content-container {
+    background-color: black;
+}
+
+.subscription-content-container h1, h2 {
+    margin-top: 0px;
+    padding: 20px 0;
+    color: white;
+}
+
+.subscription-container {
+    display: flex;
+    justify-content: center;
+}
+
+.offer-package {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    padding: 16px;
+    margin: 16px;
+}
+
+.offer-package h3 {
+    color: white;
+}
+
+.offer-package p {
+    color: white;
+    height: 150px;
+}
+
+.price {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sub-btn {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: red;
+    border: none;
+    color: white;
+    margin-top: 32px;
+    padding: 16px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+

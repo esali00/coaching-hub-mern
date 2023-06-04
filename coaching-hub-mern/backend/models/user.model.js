@@ -12,7 +12,7 @@ const userSchema = new mongoose.Schema({
     notes: {
         type: Array
     },
-  }, {collection: "coaching_hub", timestamps: true})
+  }, {timestamps: true})
   
   module.exports = mongoose.model("User", userSchema);
   

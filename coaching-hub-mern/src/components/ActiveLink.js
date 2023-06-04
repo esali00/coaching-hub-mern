@@ -6,7 +6,7 @@ const ActiveLink = ({ to, children, ...props }) => {
   
     return (
       <li className={isActive ? "active" : ""}>
-        <Link to={to} {...props}> 
+        <Link to={to} {...props}>
           {children}
         </Link>
       </li>
